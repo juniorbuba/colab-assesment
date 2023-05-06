@@ -36,7 +36,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	font-family: 'Montserrat', sans-serif;
 }
 
-
 .lead{
 	font-weight: 400;
 }
@@ -718,20 +717,7 @@ Contact
 	display:block;
 }
 
-/* ================================
-Clients
-================================= */
-ul.clients {
-	list-style: none;
-}
-ul.clients li {
-	display: inline;
-}
 
-
-/* ================================
-Bottom widget
-================================= */
 #bottom-widget {
   overflow: hidden;
 }
@@ -754,9 +740,8 @@ ul.social-network li a:hover span .fa-circle {
 ul.social-network li a i{
   transition: 0.3s
 }
-/* ================================
-Footer
-================================= */
+
+
 footer {
 	background: #00c1c1;
 	color: #fff;
@@ -785,8 +770,12 @@ more media queries
 	}
 
 	.navbar-nav {
-		float: left;
+		float: right;
 		text-align: left;
+	}
+
+	.planets{
+		width: 50% !important;
 	}
 
 	.box-team, .box-team img {
@@ -822,7 +811,25 @@ more media queries
 		padding: 0 20px;
 	}
 
+	.planets{
+		width: 50% !important;
+	}
 }
+
+@media (max-width:991px) {
+
+	.mb-10{
+		margin-bottom: 20px !important;
+	}
+}
+
+@media (max-width:600px) {
+
+	.planets{
+		width: 100% !important;
+	}
+}
+
 
 @media (max-width:480px){
 
@@ -847,5 +854,9 @@ more media queries
 
 	header h1{
 		font-size: 70px;
+	}
+
+	.planets{
+		width: 100% !important;
 	}
 }
