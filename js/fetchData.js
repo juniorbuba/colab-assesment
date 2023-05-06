@@ -14,7 +14,7 @@ $(document).ready(function(){
             $('#fetchData').empty()
             console.log(data);
             for(i = 0; i < 4; i++){
-                $('#fetchData').append(`<div class="" style="width:25%; float: left;">
+                $('#fetchData').append(`<div class="planets" style="width:25%; float: left;">
                 <h2>${data[i].name}</h2>
                 <img src="${data[i].imgSrc.img}" alt="${data[i].imgSrc.imgDescription}" style="height: 300px; width: 300px;" class="img-responsive img-thumbnail"/>
                 <p style="text-align: justify; margin: 3%;">${data[i].description}</p>
