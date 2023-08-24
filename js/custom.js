@@ -23,6 +23,10 @@
     $(".navbar-collapse.collapse").removeClass('in');
   });
 
+  $('#resume').on('click', function(){
+    window.open(' https://drive.google.com/file/d/1c2GQfVBBxFCBp-qAn9snXSJ-LaijEgNJ/view?usp=sharing', '_blank');
+  })
+
   //Home Background Slider
 
   $(function() {
