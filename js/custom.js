@@ -14,6 +14,12 @@
     return false;
   });
 
+  $('.bubasWorks').click(function(){
+      if(this.nodeName == 'A'){
+        window.open(this.href, '_blank');
+      }
+  })
+
   //navigation
   $('.navigation').onePageNav({
     scrollOffset: 0
