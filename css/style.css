@@ -10,6 +10,10 @@ body{
 	line-height: 1.6em;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 h1 {
 	font-size: 36px;
 }
@@ -352,6 +356,7 @@ About
 #about .content p {
   line-height: 26px;
   text-align: left;
+  /* font-size: 12px; */
 }
 
 #about .content p:last-child {
@@ -773,6 +778,10 @@ more media queries
 ================================= */
 
 @media (max-width:768px) {
+
+	#hidden-professional-experience{
+		display: none;
+	}
 
 	header{
 		padding-bottom: 50px;

@@ -15,6 +15,7 @@
   });
 
   $('.bubasWorks').click(function(){
+    event.preventDefault();
       if(this.nodeName == 'A'){
         window.open(this.href, '_blank');
       }
